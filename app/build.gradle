@@ -55,7 +55,7 @@ dependencies {
 //Updates your app's build.gradle file to include an apply plugin line, and a sceneform.asset() entry for the newly imported asset:
 apply plugin: 'com.google.ar.sceneform.plugin'
 
-sceneform.asset('sampledata/models/beagle.obj', // 'Source Asset Path' specified during import.
+sceneform.asset('sampledata/models/soccer.obj', // 'Source Asset Path' specified during import.
         'default',                            // 'Material Path' specified during import.
-        'sampledata/models/beagle.sfa',         // '.sfa Output Path' specified during import.
-        'src/main/res/raw/beagle')              // '.sfb Output Path' specified during import.
+        'sampledata/models/soccer.sfa',         // '.sfa Output Path' specified during import.
+        'src/main/res/raw/soccer')              // '.sfb Output Path' specified during import.
